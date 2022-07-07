@@ -31,6 +31,7 @@ class HomePage extends StatelessWidget {
             children: const [
               ActionButtons(),
               Expanded(child: UserList()),
+              Text("Controller Receiving"),
             ],
           ),
         ),
